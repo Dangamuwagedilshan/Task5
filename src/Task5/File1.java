@@ -10,6 +10,7 @@ public class File1 {
 		// TODO Auto-generated method stub
 		BufferedReader r = new BufferedReader(new FileReader("data/wolf-fox.txt"));
 		r.lines().forEach(l-> System.out.println(l));
+		r.close();
 	}
 
 }
