@@ -32,8 +32,10 @@ public class Experiment01 {
 
 			System.out.println("Get the class of the table:"+table.getClass());
 		
+			for(int i = 0; i<table.size();i+=1) {
+				System.out.println(table.get(i));
+			}
 		
-		     table.forEach(x -> System.out.println(x));
 	}
 
 }
