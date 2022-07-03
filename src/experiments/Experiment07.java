@@ -33,7 +33,7 @@ public class Experiment07 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		
-		new Experiment06().run();
+		new Experiment07().run();
 	}	
 
 }
